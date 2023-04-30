@@ -1,0 +1,29 @@
+label {
+			color: blue;
+			float: left;
+			width: 8em;
+			font-weight: bold;
+			text-align: left;
+		}
+		input {
+			width: 15em;
+			margin: 0 0 .5em 1em;
+		}
+      
+        #button, #submit {
+			width: 7em;
+			background-color: silver;
+			box-shadow: 2px 2px 0 blue;
+        }
+		
+		#button, #reset {
+			width: 7em;
+			background-color: silver;
+			box-shadow: 2px 2px 0 blue;
+        }
+        
+        #button {
+            
+			margin-left: 9em;
+            
+        }
