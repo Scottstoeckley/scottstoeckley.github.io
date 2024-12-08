@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - GrimDark News South East</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GrimDark News South East</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>News Articles</h2>
+        <div class="filter">
+            <label for="filter">Filter by:</label>
+            <select id="filter" onchange="filterNews()">
+                <option value="all">All</option>
+                <option value="latest">Latest</option>
+                <option value="events">Events</option>
+            </select>
+        </div>
+        <section class="news-list" id="news-list">
+            <article data-date="2024-11-01" data-category="latest">
+                <div class="article-content">
+                    <h3>Balance Update</h3>
+                    <p class="summary">For this balance update, the focus is on continued external and internal balance adjustments through points adjustments...</p>
+                    <div class="details">
+                        <p>Full details of the update and how it impacts your game can be found on the official website.</p>
+                    </div>
+                </div>
+            </article>
+            <article data-date="2024-11-01" data-category="latest">
+                <div class="article-content">
+                    <h3>New Game Mechanics Revealed</h3>
+                    <p class="summary">Every year as the nights draw close and snow starts to fall, the Red Gobbo dons his fur-lined jacket and sets off to cause havoc...</p>
+                    <div class="details">
+                        <p>Details on the new game mechanics will bring a fresh twist to your favorite games, allowing for more dynamic play.</p>
+                    </div>
+                </div>
+            </article>
+            <article data-date="2024-11-20" data-category="events">
+                <div class="article-content">
+                    <h3>House of Games Warhammer 40K Tournament 2000pts</h3>
+                    <p class="summary">An epic 2000-point Warhammer 40K tournament in Greeneville, TN, open to players from all regions!</p>
+                    <div class="details">
+                        <p><strong>LOCATION:</strong> Greeneville, TN, United States</p>
+                        <p><strong>ORGANIZER:</strong> Tim Ward</p>
+                        <p><strong>PLAYERS:</strong> 20</p>
+                        <p><strong>ROUNDS:</strong> 3</p>
+                    </div>
+                </div>
+            </article>
+            <article data-date="2024-11-30" data-category="events">
+                <div class="article-content">
+                    <h3>Gotta have Moxie!! Nov 40K RTT 2000pts</h3>
+                    <p class="summary">Get ready for another thrilling Warhammer 40K RTT event in Columbus, GA.</p>
+                    <div class="details">
+                        <p><strong>LOCATION:</strong> Columbus, GA, United States</p>
+                        <p><strong>ORGANIZER:</strong> Tommy Rust</p>
+                        <p><strong>PLAYERS:</strong> 20</p>
+                        <p><strong>ROUNDS:</strong> 3</p>
+                    </div>
+                </div>
+            </article>
+            <article data-date="2024-12-05" data-category="events">
+                <div class="article-content">
+                    <h3>Hard Knox Games Nov. 2024 40K Tournament</h3>
+                    <p class="summary">Join us in Elizabethtown, KY, for an action-packed 40K tournament!</p>
+                    <div class="details">
+                        <p><strong>LOCATION:</strong> Elizabethtown, KY, United States</p>
+                        <p><strong>ORGANIZER:</strong> Andrew Hall</p>
+                        <p><strong>PLAYERS:</strong> 20</p>
+                        <p><strong>ROUNDS:</strong> 3</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GrimDark News South East | <a href="privpol.html">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
