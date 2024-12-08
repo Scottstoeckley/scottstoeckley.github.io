@@ -1,0 +1,129 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+/* Header Styling */
+header {
+    background-color: #111;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9c74f;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #f9c74f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e2b13d;
+}
+
+/* Slideshow Styling */
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    max-height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slide.active {
+    display: block;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* News Section Styling */
+.news-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+article {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+article .article-content {
+    display: flex;
+    flex-direction: column;
+}
+
+article h3 {
+    color: #f9c74f;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+article .summary {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+article .details p {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+/* Filter Styling */
+.filter {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - GrimDark News South East</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="community.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GrimDark News South East</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="community-forum">
+        <div class="forum-container">
+            <h2>Community Forum</h2>
+            <form id="submission-form" onsubmit="return addPost()">
+                <div class="username">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="message-box">
+                    <label for="message">Message:</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="submission-response"></div>
+
+            <h3>Posts:</h3>
+            <div id="posts-container"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; GrimDark News South East | <a href="privpol.html">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

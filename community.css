@@ -1,0 +1,62 @@
+/* Specific Styles for Community Page (only affects community.html) */
+
+/* Center the username and message box */
+.community-forum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #333;
+    padding: 20px;
+}
+
+.forum-container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.username label {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.username input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box label {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.message-box textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    resize: vertical; /* Allow the textarea to resize vertically */
+}
